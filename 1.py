@@ -20,3 +20,4 @@ session = Session()
 
 for i in session.query(server_type).order_by(server_type.id).all():
     print i.id
+1
